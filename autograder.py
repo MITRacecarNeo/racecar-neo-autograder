@@ -44,7 +44,7 @@ lab_id = [
 def pad(input):
     text = input
     while (len(text) < 32):
-        text = "00" + text
+        text = "0" + text
     return text
 
 def main():
